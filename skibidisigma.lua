@@ -42,7 +42,7 @@ local whitelist = {
 "Araxis2223", "WhosTrubs", "iiiiiiiiiignas", "itzbaba2", "GLITCHEDSMG44", "forma266", "3omda4reall",
 "jerfie22", "spidermanboy11900", "gamersroblox5D", "AgentR6Retro", "yamir19385", "Oscarmanguia",
 "gagalol2", "Berlinerali", "Ban55562", "only_Acqua", "TNT_COOKIE35", "Real_Bloodhoodlife", "jolataue3",
-"ajfhlka538", "Bro_567452"
+"ajfhlka538", "Bro_567452", "lendankel"
 }
 
 -- Funkcja normalizująca nazwę użytkownika (np. do małych liter)

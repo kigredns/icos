@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 
 -- Zaktualizowana whitelist z dodatkowymi nickami
 local whitelist = {
-    "Wojtes_BMW", "malsidhaledearoblox", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
+    "sdasdasd", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
     "apullahh", "AGameDeveloperr", "ARCHIE_LOVESROBLOX73", "ashwingamernov062013", "xdemon_zuko", "JAKE727why",
     "Tuber93333666", "Omenino_HG", "JOELEX16MP", "kirarija", "Mahaz1122", "ArtTheCut", "F_Ajgn", "thegemeur776",
     "HeWinzx", "turyhd666", "CRIPTICAL_BCC", "kfgdhdhdhd", "lukas_hack05", "water9165", "Zayo_alfa1", "Xxitalydarck91xX",
@@ -38,8 +38,11 @@ local whitelist = {
 "gcfrfhdjx2account", "ytr_Jaozin", "drfantasy91", "JuhSFDAH", "Angelofrancisco7", "kitti200300",  
 "mahfooz45", "ILoveYou_Alana2", "IloveyouTanq", "FarmerManatee", "DorukAliCelik90", "Fable_Cable",  
 "GOON1380", "Ingoul23", "Xanesiy", "Zrk974ii", "thegenier", "Beicon_daquebrada",  
-"lehadro_greek15", "ghjghjkfju", "yaboiaction9012", "ta1luar", "dreckpro143", "furtzge"  
-
+"lehadro_greek15", "ghjghjkfju", "yaboiaction9012", "ta1luar", "dreckpro143", "furtzge",
+"Araxis2223", "WhosTrubs", "iiiiiiiiiignas", "itzbaba2", "GLITCHEDSMG44", "forma266", "3omda4reall",
+"jerfie22", "spidermanboy11900", "gamersroblox5D", "AgentR6Retro", "yamir19385", "Oscarmanguia",
+"gagalol2", "Berlinerali", "Ban55562", "only_Acqua", "TNT_COOKIE35", "Real_Bloodhoodlife", "jolataue3",
+"ajfhlka538", "Bro_567452"
 }
 
 -- Funkcja normalizująca nazwę użytkownika (np. do małych liter)

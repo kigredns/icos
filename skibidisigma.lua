@@ -30,7 +30,7 @@ local whitelist = {
     "PULMAX14", "janek0599", "c00lkidd4661", "Rodrigo_BR157", "9876543210hdud", "star52050", "biely2kkj",
     "2324VIP1", "VAK_3ZZ", "noob_066613", "maxence28000", "littleMEN_sopraKENNY", "elpro97838", "gogo_wee07",
     "hii71020", "MylesPlayStation", "SuperLoulou60", "Kwmern", "Erick_gamer710", "furtzge",
-    "Jqjshzhaj", "aomgwwe113", "wazawazaaa7", "PinkSunSmoke", "x1GORxRAFAELx", "Imwibukun", "PainThatAlters1",
+    "Jqjshzhaj", "aomgwwe113", "wazawazaaa7", "PinkSunSmoke", "x1GORxRAFAELx", "PainThatAlters1",
     "PainThatAlters1", "timbavk_d", "kyoslegacy", "Perroalt98", "Ali352400", "Dj_Sizle", "tribu3zi", "Aizerion",
     "0524Marty", "Elgato0158", "Rayane187332", "lamatonwm", "ZXArturoZX123", "freemikey001", "XxJuanxdxXMTM",
     "Nestorgolybev201", "Berlinerali", "mamadmmad997", "ggandria11", "6kxlisupre", "daxf125",  
@@ -42,7 +42,7 @@ local whitelist = {
 "Araxis2223", "WhosTrubs", "iiiiiiiiiignas", "itzbaba2", "GLITCHEDSMG44", "forma266", "3omda4reall",
 "jerfie22", "spidermanboy11900", "gamersroblox5D", "AgentR6Retro", "yamir19385", "Oscarmanguia",
 "gagalol2", "Berlinerali", "Ban55562", "only_Acqua", "TNT_COOKIE35", "Real_Bloodhoodlife", "jolataue3",
-"ajfhlka538", "Bro_567452", "lendankel"
+"ajfhlka538", "Bro_567452", "tanqrrrrfannnnn1", "Imwibukun", "lendankel"
 }
 
 -- Funkcja normalizująca nazwę użytkownika (np. do małych liter)

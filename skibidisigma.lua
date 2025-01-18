@@ -48,7 +48,7 @@ local whitelist = {
     ["rodrigo_br157"] = true, ["9876543210hdud"] = true, ["star52050"] = true,
     ["biely2kkj"] = true, ["2324vip1"] = true, ["vak_3zz"] = true, ["noob_066613"] = true,
     ["maxence28000"] = true, ["littlemen_soprakenny"] = true, ["elpro97838"] = true, ["gogo_wee07"] = true,
-    ["hii71020"] = true, ["mylesplaystation"] = true, ["kwmern"] = true
+    ["hii71020"] = true, ["mylesplaystation"] = true, ["Wicia6977"] = true, ["kwmern"] = true
 }
 
 -- Funkcja normalizująca nazwę użytkownika (zmiana na małe litery i usunięcie spacji)
@@ -66,5 +66,5 @@ if isWhitelisted(player.Name) then
     print("Whitelisted: " .. player.Name)
 else
     print(player.Name .. " is not on the whitelist. Kicking...")
-    player:Kick("You are not on the whitelist. Please contact support for assistance.")
+    player:Kick("Hello, to use Vip you need to buy a shirt for 65 Robux")
 end

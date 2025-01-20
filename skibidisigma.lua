@@ -49,7 +49,7 @@ local whitelist = {
     ["biely2kkj"] = true, ["2324vip1"] = true, ["vak_3zz"] = true, ["noob_066613"] = true,
     ["maxence28000"] = true, ["littlemen_soprakenny"] = true, ["elpro97838"] = true, ["gogo_wee07"] = true,
     ["hii71020"] = true, ["mylesplaystation"] = true, ["wicia6977"] = true,
-    ["headhittaa"] = true, ["Ban55562"] = true, ["Aaron200158"] = true, ["kwmern"] = true
+    ["headhittaa"] = true, ["ban55562"] = true, ["aaron200158"] = true, ["szym0n456"] = true, ["kwmern"] = true
 }
 
 -- Funkcja normalizująca nazwę użytkownika (zmiana na małe litery i usunięcie spacji)

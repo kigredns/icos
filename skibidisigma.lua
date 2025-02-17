@@ -52,7 +52,8 @@ local whitelist = {
 "skibididopdopeses213", "CocoSlapBattles", "JagPro308", "killerferfre1", "WonoBeLike", "Akmal_bilek5", "Jean_Elias1", "WolfPaq_OFC00",
 "Cheesekubpom2015", "Gumball_20090", "raroiga", "t_xaas", "ben_samet56", "u_angel948", "gfdcsur", "PolymorphicLen", "jav46917",
 "Kingbigz21spam", "bartinio112", "TUBers930return", "xSxYxSx", "linda_rania", "Koroche84",
-"087scp_b", "CristBoxXd2", "fahad1234oeo", "imposteurbleu123", "Jean_Elias1", "hawi1661"
+"087scp_b", "CristBoxXd2", "fahad1234oeo", "imposteurbleu123", "Jean_Elias1", "hawi1661",
+"Anonymouse_0862", "yt2222322", "emoli_kaya", "CristBoxXd2"
 }
 -- Funkcja normalizująca nazwę użytkownika (np. do małych liter)
 local function normalizeUsername(username)

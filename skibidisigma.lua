@@ -1,7 +1,8 @@
 local player = game.Players.LocalPlayer
+local playerName = player.Name
 
 local whitelist = {
-"Wojt432", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
+    "Wojt432", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
     "apullahh", "AGameDeveloperr", "ARCHIE_LOVESROBLOX73", "ashwingamernov062013", "xdemon_zuko", "JAKE727why",
     "Tuber93333666", "Omenino_HG", "JOELEX16MP", "kirarija", "Mahaz1122", "ArtTheCut", "F_Ajgn", "thegemeur776",
     "HeWinzx", "turyhd666", "CRIPTICAL_BCC", "kfgdhdhdhd", "lukas_hack05", "water9165", "Zayo_alfa1", "Xxitalydarck91xX",
@@ -58,32 +59,29 @@ local whitelist = {
 "CristBoxXd2", "Hejasupa"
 }
 
- local function normalizeUsername(username)
-    return username:lower():gsub("%s+", "")
-end
-
- local function isUserAuthorized(username)
-    local normalizedName = normalizeUsername(username)
+local function isUserAuthorized(username)
     for _, whitelistedName in ipairs(whitelist) do
-        if normalizeUsername(whitelistedName) == normalizedName then
+        if string.lower(whitelistedName) == string.lower(username) then
             return true
         end
     end
     return false
 end
 
-if not isUserAuthorized(player.Name) then
-    print(player.Name .. "FUCK U YANIKI")
+if not isUserAuthorized(playerName) then
+    print("Access denied: " .. playerName)
     game.StarterGui:SetCore("SendNotification", {
- Title = "You do not have access!";
- Text = "You must buy a shirt or contact the Sander X team group if you have already purchased one.";
- Duration = 5;
+        Title = "Access Denied!",
+        Text = "You must buy a shirt or contact the Sander X team group if you have already purchased one.",
+        Duration = 5
     })
+
     return
 end
-print("FUCK U YANIKI" .. player.Name)
+
+print("Access granted: " .. playerName)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "You Have Access!";
-    Text = "Enjoy :)!";
-    Duration = 5;
+    Title = "Access Granted!",
+    Text = "Welcome, " .. playerName .. "! Enjoy your time!",
+    Duration = 5
 })

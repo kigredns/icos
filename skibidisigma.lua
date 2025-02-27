@@ -1,7 +1,7 @@
 local player = game.Players.LocalPlayer
 
- whitelist = {
-"Wojtes_BM", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
+local whitelist = {
+"Wojtes_BMW", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
     "apullahh", "AGameDeveloperr", "ARCHIE_LOVESROBLOX73", "ashwingamernov062013", "xdemon_zuko", "JAKE727why",
     "Tuber93333666", "Omenino_HG", "JOELEX16MP", "kirarija", "Mahaz1122", "ArtTheCut", "F_Ajgn", "thegemeur776",
     "HeWinzx", "turyhd666", "CRIPTICAL_BCC", "kfgdhdhdhd", "lukas_hack05", "water9165", "Zayo_alfa1", "Xxitalydarck91xX",
@@ -55,14 +55,14 @@ local player = game.Players.LocalPlayer
 "087scp_b", "CristBoxXd2", "fahad1234oeo", "imposteurbleu123", "Jean_Elias1", "hawi1661",
 "Anonymouse_0862", "yt2222322", "emoli_kaya", "howie100100", "Pessoa_Semconta", "aura22087",
 "UnBearable2013", "kalwatochuj", "PIROK_XEREKAdaSUAMAE", "Lena28767", "Vitor360re", "ssggssgg04",
-"CristBoxXd2", "Hejasupa",
+"CristBoxXd2", "Hejasupa"
 }
 
- function normalizeUsername(username)
+ local function normalizeUsername(username)
     return username:lower():gsub("%s+", "")
 end
 
- function isUserAuthorized(username)
+ local function isUserAuthorized(username)
     local normalizedName = normalizeUsername(username)
     for _, whitelistedName in ipairs(whitelist) do
         if normalizeUsername(whitelistedName) == normalizedName then

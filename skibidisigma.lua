@@ -1,6 +1,6 @@
 local player = game.Players.LocalPlayer
--- Zaktualizowana whitelist z dodatkowymi nickami
-local whitelist = {
+
+ whitelist = {
 "Wojtes_BMW", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
     "apullahh", "AGameDeveloperr", "ARCHIE_LOVESROBLOX73", "ashwingamernov062013", "xdemon_zuko", "JAKE727why",
     "Tuber93333666", "Omenino_HG", "JOELEX16MP", "kirarija", "Mahaz1122", "ArtTheCut", "F_Ajgn", "thegemeur776",
@@ -55,14 +55,14 @@ local whitelist = {
 "087scp_b", "CristBoxXd2", "fahad1234oeo", "imposteurbleu123", "Jean_Elias1", "hawi1661",
 "Anonymouse_0862", "yt2222322", "emoli_kaya", "howie100100", "Pessoa_Semconta", "aura22087",
 "UnBearable2013", "kalwatochuj", "PIROK_XEREKAdaSUAMAE", "Lena28767", "Vitor360re", "ssggssgg04",
-"CristBoxXd2", "Hejasupa"
+"CristBoxXd2", "Hejasupa",
 }
--- Funkcja normalizująca nazwę użytkownika (np. do małych liter)
-local function normalizeUsername(username)
-    return username:lower():gsub("%s+", "")  -- Zmienia na małe litery i usuwa spacje
+
+ function normalizeUsername(username)
+    return username:lower():gsub("%s+", "")
 end
--- Funkcja sprawdzająca, czy użytkownik jest na whiteliście
-local function isWhitelisted(username)
+
+ function isUserAuthorized(username)
     local normalizedName = normalizeUsername(username)
     for _, whitelistedName in ipairs(whitelist) do
         if normalizeUsername(whitelistedName) == normalizedName then
@@ -71,11 +71,19 @@ local function isWhitelisted(username)
     end
     return false
 end
--- Sprawdzenie i reakcja na wynik
-if isWhitelisted(player.Name) then
-    print("Whitelisted: " .. player.Name)
-else
-    -- Powiadomienie i wyrzucenie użytkownika
-    print(player.Name .. " is not on the whitelist. Kicking...")
-    player:Kick("You are not on the whitelist. Please contact support for assistance.")
+
+if not isUserAuthorized(player.Name) then
+    print(player.Name .. "FUCK U YANIKI")
+    game.StarterGui:SetCore("SendNotification", {
+ Title = "You do not have access!";
+ Text = "You must buy a shirt or contact the Sander X team group if you have already purchased one.";
+ Duration = 5;
+    })
+    return
 end
+print("FUCK U YANIKI" .. player.Name)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "You Have Access!";
+    Text = "Enjoy :)!";
+    Duration = 5;
+})

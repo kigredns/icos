@@ -55,7 +55,7 @@ local wList = {
 "087scp_b", "CristBoxXd2", "fahad1234oeo", "imposteurbleu123", "Jean_Elias1", "hawi1661",
 "Anonymouse_0862", "yt2222322", "emoli_kaya", "howie100100", "Pessoa_Semconta", "aura22087",
 "UnBearable2013", "kalwatochuj", "PIROK_XEREKAdaSUAMAE", "Lena28767", "Vitor360re", "ssggssgg04",
-"CristBoxXd2", "Hejasupa"
+"CristBoxXd2", "Hejasupa", "beneu090", "William_50157", "RX_BoMBa", "RONoblox_9", "krystianpross", "Sasha84444", "hoaithuongvntr"
 }
 
 local function isWListed(user)

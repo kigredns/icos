@@ -1,3 +1,4 @@
+local player = game.Players.LocalPlayer
 -- Zaktualizowana whitelist z dodatkowymi nickami
 local whitelist = {
 "Wojtes_BMW", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
@@ -54,7 +55,7 @@ local whitelist = {
 "087scp_b", "CristBoxXd2", "fahad1234oeo", "imposteurbleu123", "Jean_Elias1", "hawi1661",
 "Anonymouse_0862", "yt2222322", "emoli_kaya", "howie100100", "Pessoa_Semconta", "aura22087",
 "UnBearable2013", "kalwatochuj", "PIROK_XEREKAdaSUAMAE", "Lena28767", "Vitor360re", "ssggssgg04",
-"CristBoxXd2", "Hejasupa", "beneu090", "William_50157", "RX_BoMBa", "RONoblox_9", "krystianpross", "Sasha84444", "hoaithuongvntr"
+"CristBoxXd2", "Hejasupa", "beneu090", "William_50157", "RX_BoMBa", "RONoblox_9", "krystianpross", "Sasha84444", "hoaithuongvntr",
 "trickyymn", "catcheur2014", "steven352531", "Zaphone_TH", "32PN", "danilobiloo", "Ahmet_7710", "Noobalp66",
 "vanoooajaa", "Jhonpark11", "cheese1234567890151", "squ1zy69", "Arbaletikk", "jojoperaa", "jaidennnnnn70",
 "Charlesapro77", "PvP_202474", "goodcymon1099", "beneu090", "William_50157", "Ladydeathrains", "CocoSlapBattles"

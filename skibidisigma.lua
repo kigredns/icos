@@ -1,7 +1,6 @@
-
-local p1 = game:GetService("Players").LocalPlayer 
-local wList = {
-"Wojtes_BMW", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
+-- Zaktualizowana whitelist z dodatkowymi nickami
+local whitelist = {
+Wojtes_BMW", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
     "apullahh", "AGameDeveloperr", "ARCHIE_LOVESROBLOX73", "ashwingamernov062013", "xdemon_zuko", "JAKE727why",
     "Tuber93333666", "Omenino_HG", "JOELEX16MP", "kirarija", "Mahaz1122", "ArtTheCut", "F_Ajgn", "thegemeur776",
     "HeWinzx", "turyhd666", "CRIPTICAL_BCC", "kfgdhdhdhd", "lukas_hack05", "water9165", "Zayo_alfa1", "Xxitalydarck91xX",
@@ -60,29 +59,25 @@ local wList = {
 "vanoooajaa", "Jhonpark11", "cheese1234567890151", "squ1zy69", "Arbaletikk", "jojoperaa", "jaidennnnnn70",
 "Charlesapro77", "PvP_202474", "goodcymon1099", "beneu090", "William_50157", "Ladydeathrains", "CocoSlapBattles"
 }
-
-local function isWListed(user)
-    local userLower = user:lower()
-    for _, name in ipairs(wList) do
-        if userLower == name:lower() then
+-- Funkcja normalizująca nazwę użytkownika (np. do małych liter)
+local function normalizeUsername(username)
+    return username:lower():gsub("%s+", "")  -- Zmienia na małe litery i usuwa spacje
+end
+-- Funkcja sprawdzająca, czy użytkownik jest na whiteliście
+local function isWhitelisted(username)
+    local normalizedName = normalizeUsername(username)
+    for _, whitelistedName in ipairs(whitelist) do
+        if normalizeUsername(whitelistedName) == normalizedName then
             return true
         end
     end
     return false
 end
-
-local function secureKick()
-    task.spawn(function()
-        while true do
-            if not isWListed(p1.Name) then
-                pcall(function()
-                    p1:Kick("Unauthorized access. Contact support.")
-                end)
-                task.wait(0.5)
-            end
-            task.wait(1)
-        end
-    end)
+-- Sprawdzenie i reakcja na wynik
+if isWhitelisted(player.Name) then
+    print("Whitelisted: " .. player.Name)
+else
+    -- Powiadomienie i wyrzucenie użytkownika
+    print(player.Name .. " is not on the whitelist. Kicking...")
+    player:Kick("You are not on the whitelist. Please contact support for assistance.")
 end
-
-secureKick()

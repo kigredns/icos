@@ -4,11 +4,21 @@ local oldNamecall = mt.__namecall
 
 setreadonly(mt, false)
 
+-- Funkcja, która wykrywa, czy ktoś próbuje manipulować metatabelą
+local function detectTampering()
+    if not table.find(getconnections(game.Players.LocalPlayer.AncestryChanged), function(v)
+        return v.Function and islclosure(v.Function) and not isexecutorclosure(v.Function)
+    end) then
+        warn("⚠️ Wykryto próbę manipulacji metatabelą!")
+        game.Players.LocalPlayer:Kick("🚨 Nieautoryzowana modyfikacja wykryta.")
+    end
+end
+
+-- Blokowanie wywołania Kick()
 mt.__index = function(self, key)
     if key == "Kick" then
-        warn(".")
-        game.Players.LocalPlayer:Kick(".")
-        return nil
+        warn("🚨 Próba wyrzucenia gracza została zablokowana!")
+        return function() end  -- Uniemożliwienie wykonania Kick()
     end
     return oldIndex(self, key)
 end
@@ -16,14 +26,19 @@ end
 mt.__namecall = function(self, ...)
     local method = getnamecallmethod()
     if method == "Kick" then
-        warn(".")
-        game.Players.LocalPlayer:Kick(".")
-        return nil
+        warn("🚨 Próba wyrzucenia gracza została zablokowana!")
+        return function() end
     end
     return oldNamecall(self, ...)
 end
 
 setreadonly(mt, true)
+
+-- Wykrywanie manipulacji co kilka sekund
+game:GetService("RunService").Stepped:Connect(detectTampering)
+
+print("✅ Anti-Kick aktywne.")
+
 local player = game.Players.LocalPlayer
 -- Zaktualizowana whitelist z dodatkowymi nickami
 local whitelist = {

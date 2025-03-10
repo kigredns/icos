@@ -1,3 +1,29 @@
+local mt = getrawmetatable(game)
+local oldIndex = mt.__index
+local oldNamecall = mt.__namecall
+
+setreadonly(mt, false)
+
+mt.__index = function(self, key)
+    if key == "Kick" then
+        warn(".")
+        game.Players.LocalPlayer:Kick(".")
+        return nil
+    end
+    return oldIndex(self, key)
+end
+
+mt.__namecall = function(self, ...)
+    local method = getnamecallmethod()
+    if method == "Kick" then
+        warn(".")
+        game.Players.LocalPlayer:Kick(".")
+        return nil
+    end
+    return oldNamecall(self, ...)
+end
+
+setreadonly(mt, true)
 local player = game.Players.LocalPlayer
 -- Zaktualizowana whitelist z dodatkowymi nickami
 local whitelist = {

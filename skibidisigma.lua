@@ -42,7 +42,7 @@ local whitelist = {
 "Araxis2223", "WhosTrubs", "iiiiiiiiiignas", "itzbaba2", "GLITCHEDSMG44", "forma266", "3omda4reall",
 "jerfie22", "spidermanboy11900", "gamersroblox5D", "AgentR6Retro", "yamir19385", "Oscarmanguia",
 "gagalol2", "Berlinerali", "Ban55562", "only_Acqua", "TNT_COOKIE35", "Real_Bloodhoodlife", "jolataue3", "Gady1203_2",
-"ajfhlka538", "Bro_567452", "tanqrrrrfannnnn1", "Imwibukun", "Krutoichel769", "XxBarackGamingzLOL", "Voner956", "createchgamimg",
+"ajfhlka538", "Bro_567452", "tanqrrrrfannnnn1", "Imwibukun", "XxBarackGamingzLOL", "Voner956", "createchgamimg",
 "aqwariy", "megaeddie759", "KADZUTORAN1", "Hyexgamer3550", "Roman304010", "noobyguy_1009", "Gamer222boom", "xALOESx21", "Emrelol43", "AceK1nd",
 "victor134lko", "dana_Uwy", "luckmioginho", "hdugpfsugs6r", "Gady1203_2", "sweet_tarts738", "edduard647", "risottoJr", "Hanaw1123", "Noetarbler",
 "LorenzoSantos138", "raito2574", "y2kpHoOx09p", "5zym0n456", "JakeIsPail", "Rownokboss",
@@ -63,7 +63,8 @@ local whitelist = {
 "Strelata131", "schoollol123451", "danilchik78655", "InsanityOfTheCat", "CTEHA625", "antpbib", "Ler3egeex_Hax", "maxjejeqnnnn", "Fhine_1243",
 "mikhalim113771", "Mars00a", "jaidennnnnn70", "blue_oreoes", "bot_10347", "Sphinxy93", "XxSoyTheBestxX", "rpm1higor_org", "HondaCivicTypeRFK2",
 "johndorn2", "jasonkiller_poo", "xx9sb", "DKUB_15313", "swanhtetm2021", "iLwixi", "aidid_608", "Mato9845", "Salim117K", "HondaCivicTypeRFK2",
-"namoza1112", "tufirutjf"
+"namoza1112", "tufirutjf", "likmon99kids", "Vyneriox", "poirol0", "noobynoob11339", "BrandoncitoG", "POCOM3DIMA", "proluzak2137", "EliasL102400",
+"PasukanOtakMiring", "Vini_onyx", "rkhhtt", "Netnet4445", "Krutoichel769"
 
 }
 -- Funkcja normalizująca nazwę użytkownika (np. do małych liter)

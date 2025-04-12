@@ -66,7 +66,7 @@ local whitelist = {
     "namoza1112", "tufirutjf", "likmon99kids", "Vyneriox", "poirol0", "noobynoob11339", "BrandoncitoG", "POCOM3DIMA", "proluzak2137", "EliasL102400",
     "PasukanOtakMiring", "Vini_onyx", "rkhhtt", "Netnet4445", "Krutoichel769", "1ylx8", "SONOLAMAMMADEL_MANU", "shadowmutantop", "wewet1014", "superarea888",
      "Superkhalifa8",  "Marsel3713", "Emre_556627", "Krishna_NotFound7", "Xdog0011", "patron773", "Brayanprosin", "JoacoNacho20", "Juan_doai", "Koroche84", "TGFG2G",
-     "qxchips", "Superkhalifa8", "ZakharVip2", "Juany1723", "juliotorti", "VectoGameplay9067", "rodez525", "SIDA9CRANEAL", "kerb_000", "G2Manyy"
+     "qxchips", "Superkhalifa8", "ZakharVip2", "Juany1723", "juliotorti", "VectoGameplay9067", "rodez525", "SIDA9CRANEAL", "kerb_000", "G2Manyy", "dnezero"
 
 }
 -- Funkcja normalizująca nazwę użytkownika (np. do małych liter)

@@ -24,7 +24,7 @@ local whitelist = {
         "joey02222016", "Pun123nool2", "keahidagod768", "caaaa_308", "sr_tocino353", "jorge_62671",
         "D4ry4n", "devilkitty_exe", "gajkskaksk", "krvinja", "DyspoTbj", "alexislebo", "Andri_Hack908", "ANIMELORDDDDDD",
         "kalelyt1233", "RoboDudeRkranto_o", "BottomlessGluttony", "toria_1402", "vincelawrencefromv", "Yoyo666687",
-        "AsmrShade12345", "Rose_love1458", "oksanayel", "AmeerKiNGx", "dhutaob", "vicki_nice9", "RickDarKy", "kakaz1t",
+        "AsmrShade12345", "Rose_love1458", "oksanayel", "AmeerKiNGx", "dhutaob", "vicki_nice9", "RickDarKy", "KAKAZ1T",
         "kakazit01naoe02", "Syncix9", "RAYANLETUEUR", "vicki_nice9", "pamilargabriel", "noam5902", "youki2021k",
         "luckyMan_39", "AvaDeath1", "ALHORIJRWAHABjr", "Munnaindia", "Aizerion",
         "PULMAX14", "janek0599", "c00lkidd4661", "Rodrigo_BR157", "9876543210hdud", "star52050", "biely2kkj",

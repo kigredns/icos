@@ -69,7 +69,11 @@ local whitelist = {
      "qxchips", "Superkhalifa8", "ZakharVip2", "Juany1723", "juliotorti", "VectoGameplay9067", "rodez525", "SIDA9CRANEAL", "kerb_000", "G2Manyy", "dnezero", "joe_7929",
      "nuttabug", "Obshiyakk119922", "jujucatecas2015", "VenomDrakennn", "hi159074", "mainfly12347", "mattizx1234568", "Dhdidjjs6", "NinjaaEli", "hypno_dance6363", "test_20337",
      "neverbeenalive_1", "BrunoHenrique1935", "AwhCarlxs", "SomeoneLOL_44", "darksigner2a", "Idontusehaxtotally2", "Japinhakkaj", "Hmongdude88", "bayronenroblox3", "S1ccKidd", "funny12344567324",
-     "asdkajtf0_0", "KASSIO_FLAMENGO", "Aeon_One", "Xxxarnur", "Gtr10042", "PaulFreund", "666valierian"
+     "asdkajtf0_0", "KASSIO_FLAMENGO", "Aeon_One", "Xxxarnur", "Gtr10042", "PaulFreund", "666valierian", "Malayalee_bro", "Aidanleyva8181", "spoconjanek", "bwunyv", "Curalted",
+      "renegado_777899", "Nikos55809", "king_god3231yt", "Chara_1570", "jighg8ugtn78t", "leongardyan", "amHJKaAkheE",
+     "XCreative_ArasX", "sayede127", "aswath_void", "Carterade_trabaio", "Kikyoinlove", "CandyCorn_316", "ShadowsOfKindom", "superrdy_g79010", "epic_0111", "Pedrinh0_cr4ft157",
+     "randomastroid123456", "PaulFreund", "BrunoHenrique1935", "manvik09830", "CiaoNonSono_Normale"
+
 
 }
 -- Funkcja normalizująca nazwę użytkownika (np. do małych liter)

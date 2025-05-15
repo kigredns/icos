@@ -1,6 +1,6 @@
 
 local player = game.Players.LocalPlayer
--- Zaktualizowana whitelist z dodatkowymi nickami
+
 local whitelist = {
 "Wojtes_BMW", "KajaAja8", "Davikaof2", "FORTESYT", "Xxxahjmrkim", "roma22aaa", "freaknotthis",
         "apullahh", "AGameDeveloperr", "ARCHIE_LOVESROBLOX73", "ashwingamernov062013", "xdemon_zuko", "JAKE727why",
@@ -76,11 +76,11 @@ local whitelist = {
 
 
 }
--- Funkcja normalizująca nazwę użytkownika (np. do małych liter)
+
 local function normalizeUsername(username)
-    return username:lower():gsub("%s+", "")  -- Zmienia na małe litery i usuwa spacje
+    return username:lower():gsub("%s+", "")
 end
--- Funkcja sprawdzająca, czy użytkownik jest na whiteliście
+
 local function isWhitelisted(username)
     local normalizedName = normalizeUsername(username)
     for _, whitelistedName in ipairs(whitelist) do
@@ -90,11 +90,10 @@ local function isWhitelisted(username)
     end
     return false
 end
--- Sprawdzenie i reakcja na wynik
+
 if isWhitelisted(player.Name) then
     print("Whitelisted: " .. player.Name)
 else
-    -- Powiadomienie i wyrzucenie użytkownika
     print(player.Name .. " is not on the whitelist. Kicking...")
     player:Kick("You are not on the whitelist. Please contact support for assistance.")
 end

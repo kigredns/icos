@@ -72,7 +72,8 @@ local whitelist = {
      "asdkajtf0_0", "KASSIO_FLAMENGO", "Aeon_One", "Xxxarnur", "Gtr10042", "PaulFreund", "666valierian", "Malayalee_bro", "Aidanleyva8181", "spoconjanek", "bwunyv", "Curalted",
       "renegado_777899", "Nikos55809", "king_god3231yt", "Chara_1570", "jighg8ugtn78t", "leongardyan", "amHJKaAkheE",
      "XCreative_ArasX", "sayede127", "aswath_void", "Carterade_trabaio", "Kikyoinlove", "CandyCorn_316", "ShadowsOfKindom", "superrdy_g79010", "epic_0111", "Pedrinh0_cr4ft157",
-     "randomastroid123456", "PaulFreund", "BrunoHenrique1935", "manvik09830", "CiaoNonSono_Normale"
+     "randomastroid123456", "PaulFreund", "BrunoHenrique1935", "manvik09830", "CiaoNonSono_Normale", "k5d6r", "TheLord_Ege", "Raw191os", "sud0_o", "Kayah11102", "I_SPY1736",
+     "summermuffin990", "fadhilzayyani", "proplayer800C"
 
 
 }
